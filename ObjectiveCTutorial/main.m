@@ -1,17 +1,21 @@
-//
-//  main.m
-//  ObjectiveCTutorial
-//
-//  Created by Miguel Martinez on 22/08/23.
-//
-
+#include "stdio.h"
 #import <Foundation/Foundation.h>
 
 int main(int argc, const char * argv[]) {
     
-    for (int i = 0; i < argc; i++) {
-        printf("arg %d : %s \n", i, argv[i]);
-    }
+    /**
+     for (int i = 0; i < argc; i++) {
+         printf("arg %d : %s \n", i, argv[i]);
+     }
+     */
+    
+    float fTemp;
+    printf("Enter temp in farenheit: ");
+    scanf("%f", &fTemp);
+    
+    printf("The farenheit temperature is: %f \n", fTemp);
+    float cTemp = (fTemp - 32) / 1.8;
+    printf("The temperature in celcius is: %f \n", cTemp);
     
     // Objective-C
     /*

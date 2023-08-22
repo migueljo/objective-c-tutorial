@@ -18,6 +18,5 @@ int main(int argc, const char * argv[]) {
      struct
      pointer
      */
-    
     return 0;
 }
