@@ -3,19 +3,7 @@
 
 int main(int argc, const char * argv[]) {
     
-    /**
-     for (int i = 0; i < argc; i++) {
-         printf("arg %d : %s \n", i, argv[i]);
-     }
-     */
     
-    float fTemp;
-    printf("Enter temp in farenheit: ");
-    scanf("%f", &fTemp);
-    
-    printf("The farenheit temperature is: %.1f \n", fTemp);
-    float cTemp = (fTemp - 32) / 1.8;
-    printf("The temperature in celcius is: %.1f \n", cTemp);
     
     // Objective-C
     /*
