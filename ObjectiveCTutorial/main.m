@@ -13,9 +13,9 @@ int main(int argc, const char * argv[]) {
     printf("Enter temp in farenheit: ");
     scanf("%f", &fTemp);
     
-    printf("The farenheit temperature is: %f \n", fTemp);
+    printf("The farenheit temperature is: %.1f \n", fTemp);
     float cTemp = (fTemp - 32) / 1.8;
-    printf("The temperature in celcius is: %f \n", cTemp);
+    printf("The temperature in celcius is: %.1f \n", cTemp);
     
     // Objective-C
     /*
