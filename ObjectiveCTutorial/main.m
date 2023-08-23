@@ -3,11 +3,19 @@
 
 int main(int argc, const char * argv[]) {
     
-    int bigInt = 2147483647;
-    printf("Big int: %d \n", bigInt + 1);
+    int age;
     
-    printf("Min float: %e \n", FLT_MIN);
-    printf("Max float: %e \n", FLT_MAX);
+    printf("Enter your age: ");
+    scanf("%d", &age);
+    
+    printf("Your age is: %d \n", age);
+    if (age <= 0) {
+        printf("Are you a genius? \n");
+    } else if (age < 18) {
+        printf("You can't go in \n");
+    } else {
+        printf("You can go in \n");
+    }
     
     // Objective-C
     /*
