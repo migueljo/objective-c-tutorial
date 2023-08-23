@@ -3,7 +3,11 @@
 
 int main(int argc, const char * argv[]) {
     
+    int bigInt = 2147483647;
+    printf("Big int: %d \n", bigInt + 1);
     
+    printf("Min float: %e \n", FLT_MIN);
+    printf("Max float: %e \n", FLT_MAX);
     
     // Objective-C
     /*

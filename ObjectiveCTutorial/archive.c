@@ -1,5 +1,5 @@
-#include "stdio.h"
-#import <Foundation/Foundation.h>
+
+/* #include "stdio.h"
 
 int main(int argc, const char * argv[]) {
     // For loop
@@ -18,3 +18,4 @@ int main(int argc, const char * argv[]) {
 
     return 0;
 }
+*/
