@@ -1,14 +1,16 @@
 #include "stdio.h"
 #import <Foundation/Foundation.h>
 
-// Global variables are accesible even outside of this file
-float piVal = 3.14;
+void convertData(char *name, float height, float weight) {
+    height = height * 12 * 2.54;
+    weight = weight * 0.453592;
+    printf("%s is %0.1f cms tall and weighs %0.2f \n", name, height, weight);
+}
 
-// Static variables are available only inside this file
-static float number = 0.98;
-
-
-int main(int argc, const char * argv[]) {    
+int main(int argc, const char * argv[]) {
+    
+    convertData("Miguel", 5.8, 180);
+    
     // Objective-C
     /*
     @autoreleasepool {

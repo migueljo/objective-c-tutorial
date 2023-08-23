@@ -1,6 +1,11 @@
-
 /* #include "stdio.h"
 
+// Global variables are accesible even outside of this file
+float piVal = 3.14;
+
+// Static variables are available only inside this file
+static float number = 0.98;
+ 
 int main(int argc, const char * argv[]) {
     // For loop
     for (int i = 0; i < argc; i++) {
