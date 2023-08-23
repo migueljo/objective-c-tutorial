@@ -17,6 +17,16 @@ int main(int argc, const char * argv[]) {
         printf("You can go in \n");
     }
     
+    bool isElementary = age >= 12 && age <= 13;
+    
+    printf("Is in elementary? %d \n", isElementary);
+    
+    printf("Is not in elementary? %d \n", !isElementary);
+    
+    bool isHighSchool = age > 13 ? 1 : 0;
+    
+    printf("Is in highschool? %d \n", isHighSchool);
+    
     // Objective-C
     /*
     @autoreleasepool {
