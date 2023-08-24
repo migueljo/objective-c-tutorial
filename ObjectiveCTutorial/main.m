@@ -13,9 +13,21 @@ float sum(float x, float y) {
 
 int main(int argc, const char * argv[]) {
     
+    int randomNumber = 12345;
+    printf("Memory address is: %p \n", &randomNumber);
+    int *randomNumberAddress = &randomNumber;
+    *randomNumberAddress = 54321;
+    printf("Random number is now: %d \n", randomNumber);
+    printf("Random number address is: %p \n", randomNumberAddress);
+    printf("2. Random number address is: %p \n", &randomNumber);
+    
+    printf("Random number is %lu bytes \n", sizeof(randomNumber));
+    
+    /*
     convertData("Miguel", 5.8, 180);
     
     printf("2 + 2 = %.1f \n", sum(2, 2));
+     */
     
     // Objective-C
     /*
