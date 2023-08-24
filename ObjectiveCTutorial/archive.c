@@ -95,6 +95,22 @@ int main(int argc, const char * argv[]) {
      printf("Number is: %.1f \n", number);
      // *** Pointers
  
+     // **** Struct
+     struct SuperHero {
+         char *realName;
+         char *superName;
+         float height;
+         float weight;
+     };
+
+     struct SuperHero batman;
+     batman.height = 190;
+     batman.weight = 80;
+     batman.realName = "Bruce Wayne";
+     batman.superName = "Batman";
+     printf("Batman real name is: %s \n", batman.realName);
+     // **** Struct
+ 
     return 0;
 }
 */

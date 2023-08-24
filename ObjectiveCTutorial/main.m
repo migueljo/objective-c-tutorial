@@ -1,25 +1,8 @@
 #include "stdio.h"
 #import <Foundation/Foundation.h>
 
-struct SuperHero {
-    char *realName;
-    char *superName;
-    float height;
-    float weight;
-};
-
 int main(int argc, const char * argv[]) {
-    
-    struct SuperHero batman;
-    batman.height = 190;
-    batman.weight = 80;
-    batman.realName = "Bruce Wayne";
-    batman.superName = "Batman";
-    
-    printf("Batman real name is: %s \n", batman.realName);
-    
     // Objective-C
-    /*
     @autoreleasepool {
         NSLog(@"Hello, World!");
         NSString *nothing = nil;
@@ -32,7 +15,7 @@ int main(int argc, const char * argv[]) {
         
         char *name = "Miguel";
         NSString *myName = [NSString stringWithFormat:@"My name is %s", name];
-        NSLog(myName);
+        NSLog(@"%@", myName);
         BOOL isStringEqual = [quote isEqual:myName];
         printf("Are string equals? %d\n", isStringEqual);
         
@@ -40,8 +23,7 @@ int main(int argc, const char * argv[]) {
         printf("%s\n", uppercasedString);
         
         NSString *wholeQuote = [quote stringByAppendingString:myName];
-        NSLog(wholeQuote);
+        NSLog(@"%@", wholeQuote);
     }
-     */
     return 0;
 }
