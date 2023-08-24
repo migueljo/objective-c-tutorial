@@ -7,9 +7,15 @@ void convertData(char *name, float height, float weight) {
     printf("%s is %0.1f cms tall and weighs %0.2f \n", name, height, weight);
 }
 
+float sum(float x, float y) {
+    return x + y;
+}
+
 int main(int argc, const char * argv[]) {
     
     convertData("Miguel", 5.8, 180);
+    
+    printf("2 + 2 = %.1f \n", sum(2, 2));
     
     // Objective-C
     /*
