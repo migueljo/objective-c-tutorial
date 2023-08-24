@@ -6,6 +6,21 @@ float piVal = 3.14;
 // Static variables are available only inside this file
 static float number = 0.98;
  
+ void convertData(char *name, float height, float weight) {
+     height = height * 12 * 2.54;
+     weight = weight * 0.453592;
+     printf("%s is %0.1f cms tall and weighs %0.2f \n", name, height, weight);
+ }
+
+ float sum(float x, float y) {
+     return x + y;
+ }
+ 
+ // **** Pointers
+ void updateNumber(float *number) {
+     *number = 100;
+ }
+ 
 int main(int argc, const char * argv[]) {
     // For loop
     for (int i = 0; i < argc; i++) {
@@ -58,6 +73,27 @@ int main(int argc, const char * argv[]) {
     printf("3 / 2 = %.2f \n", (float)3 / 2);
     
     //
+ 
+     convertData("Miguel", 5.8, 180);
+     
+     printf("2 + 2 = %.1f \n", sum(2, 2));
+ 
+     // *** Pointers
+     int randomNumber = 12345;
+     printf("Memory address is: %p \n", &randomNumber);
+     int *randomNumberAddress = &randomNumber;
+     *randomNumberAddress = 54321;
+     printf("Random number is now: %d \n", randomNumber);
+     printf("Random number address is: %p \n", randomNumberAddress);
+     printf("2. Random number address is: %p \n", &randomNumber);
+     
+     printf("Random number is %lu bytes \n", sizeof(randomNumber));
+     
+     float number = 0;
+     printf("Number is: %.1f \n", number);
+     updateNumber(&number);
+     printf("Number is: %.1f \n", number);
+     // *** Pointers
  
     return 0;
 }
