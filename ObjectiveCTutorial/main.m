@@ -11,6 +11,10 @@ float sum(float x, float y) {
     return x + y;
 }
 
+void updateNumber(float *number) {
+    *number = 100;
+}
+
 int main(int argc, const char * argv[]) {
     
     int randomNumber = 12345;
@@ -22,6 +26,11 @@ int main(int argc, const char * argv[]) {
     printf("2. Random number address is: %p \n", &randomNumber);
     
     printf("Random number is %lu bytes \n", sizeof(randomNumber));
+    
+    float number = 0;
+    printf("Number is: %.1f \n", number);
+    updateNumber(&number);
+    printf("Number is: %.1f \n", number);
     
     /*
     convertData("Miguel", 5.8, 180);
