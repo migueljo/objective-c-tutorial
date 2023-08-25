@@ -37,6 +37,10 @@ int main(int argc, const char * argv[]) {
         } else {
             printf("Found it at index: %d \n", (int) search.location);
         }
+        
+        NSRange range = NSMakeRange(0, 4);
+        const char *newQuote = [[quote stringByReplacingCharactersInRange:range withString:@"Horses"] UTF8String];
+        printf("%s \n", newQuote);
     }
     return 0;
 }
