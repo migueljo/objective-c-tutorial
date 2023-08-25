@@ -23,6 +23,9 @@ int main(int argc, const char * argv[]) {
         
         NSString *wholeQuote = [quote stringByAppendingString:myName];
         NSLog(@"%@", wholeQuote);
+        
+        NSString *quote2 = [quote stringByAppendingString:@" Appendix"];
+        NSLog(@"%@", quote2);
     }
     return 0;
 }
