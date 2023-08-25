@@ -2,7 +2,6 @@
 #import <Foundation/Foundation.h>
 
 int main(int argc, const char * argv[]) {
-    // Objective-C
     @autoreleasepool {
         NSLog(@"Hello, World!");
         NSString *nothing = nil;
@@ -17,7 +16,7 @@ int main(int argc, const char * argv[]) {
         NSString *myName = [NSString stringWithFormat:@"My name is %s", name];
         NSLog(@"%@", myName);
         BOOL isStringEqual = [quote isEqual:myName];
-        printf("Are string equals? %d\n", isStringEqual);
+        printf("Are string equals? %d \n", isStringEqual);
         
         const char *uppercasedString = [[myName uppercaseString] UTF8String];
         printf("%s\n", uppercasedString);
