@@ -27,7 +27,7 @@ int main(int argc, const char * argv[]) {
         NSString *quote2 = [quote stringByAppendingString:@" Appendix"];
         NSLog(@"%@", quote2);
         
-        NSRange search = [quote rangeOfString:@"MAsters"];
+        NSRange search = [quote rangeOfString:@"masters"];
         
         NSLog(@"Location: %d, Length: %d", (int)search.location, (int)search.length);
         NSLog(@"Not found %d", NSNotFound);
@@ -35,7 +35,7 @@ int main(int argc, const char * argv[]) {
         if (search.location == NSNotFound) {
             NSLog(@"Not found");
         } else {
-            NSLog(@"Found it");
+            printf("Found it at index: %d \n", (int) search.location);
         }
     }
     return 0;
