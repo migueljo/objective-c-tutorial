@@ -30,7 +30,6 @@ int main(int argc, const char * argv[]) {
         NSRange search = [quote rangeOfString:@"masters"];
         
         NSLog(@"Location: %d, Length: %d", (int)search.location, (int)search.length);
-        NSLog(@"Not found %d", NSNotFound);
         
         if (search.location == NSNotFound) {
             NSLog(@"Not found");
@@ -45,6 +44,8 @@ int main(int argc, const char * argv[]) {
         NSMutableString *groceryList = [NSMutableString stringWithString:@""];
         [groceryList appendString:@"Mango"];
         [groceryList appendString:@", Avocado"];
+        NSLog(@"Grocery list: %@", groceryList);
+        [groceryList deleteCharactersInRange:NSMakeRange(0, 7)];
         NSLog(@"Grocery list: %@", groceryList);
     }
     return 0;
