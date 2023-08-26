@@ -41,6 +41,11 @@ int main(int argc, const char * argv[]) {
         NSRange range = NSMakeRange(0, 4);
         const char *newQuote = [[quote stringByReplacingCharactersInRange:range withString:@"Horses"] UTF8String];
         printf("%s \n", newQuote);
+        
+        NSMutableString *groceryList = [NSMutableString stringWithString:@""];
+        [groceryList appendString:@"Mango"];
+        [groceryList appendString:@", Avocado"];
+        NSLog(@"Grocery list: %@", groceryList);
     }
     return 0;
 }
