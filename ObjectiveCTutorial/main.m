@@ -47,6 +47,8 @@ int main(int argc, const char * argv[]) {
         NSLog(@"Grocery list: %@", groceryList);
         [groceryList deleteCharactersInRange:NSMakeRange(0, 7)];
         NSLog(@"Grocery list: %@", groceryList);
+        [groceryList insertString:@", Lemon, Tomatoes" atIndex:[groceryList length]];
+        NSLog(@"Grocery list: %@", groceryList);
     }
     return 0;
 }
