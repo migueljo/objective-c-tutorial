@@ -15,6 +15,17 @@ int main(int argc, const char * argv[]) {
         NSLog(@"Length: %d", (int)officeSupplies.count);
         NSLog(@"Index of paper is: %d", (int)[officeSupplies indexOfObject:@"Paper"]);
         NSLog(@"Index of pencils is: %d", (int)[officeSupplies indexOfObject:@"Pencils"]);
+        
+        NSMutableArray *heroes = [NSMutableArray arrayWithCapacity:5];
+        [heroes addObject:@"Batman"];
+        [heroes addObject:@"Spider man"];
+        [heroes addObject:@"Super man"];
+        [heroes addObject:@"Iron man"];
+        [heroes addObject:@"Wonder woman"];
+        [heroes addObject:@"Hulk"];
+        [heroes insertObject:@"Black panther" atIndex:2];
+        
+        NSLog(@"%@", heroes);
     }
     return 0;
 }
