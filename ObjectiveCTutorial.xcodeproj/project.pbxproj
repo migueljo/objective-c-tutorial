@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5E727DF52A99B967000315C2 /* objective-c-archive.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E727DF42A99B967000315C2 /* objective-c-archive.m */; };
+		5E727DF82A9C5E64000315C2 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E727DF72A9C5E64000315C2 /* Animal.m */; };
 		5ECE227E2A957116009377A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECE227D2A957116009377A7 /* main.m */; };
 		5ECE22882A95818A009377A7 /* archive.c in Sources */ = {isa = PBXBuildFile; fileRef = 5ECE22872A95818A009377A7 /* archive.c */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,8 @@
 
 /* Begin PBXFileReference section */
 		5E727DF42A99B967000315C2 /* objective-c-archive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "objective-c-archive.m"; sourceTree = "<group>"; };
+		5E727DF62A9C5E64000315C2 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		5E727DF72A9C5E64000315C2 /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 		5ECE227A2A957116009377A7 /* ObjectiveCTutorial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectiveCTutorial; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ECE227D2A957116009377A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5ECE22872A95818A009377A7 /* archive.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = archive.c; sourceTree = "<group>"; };
@@ -64,6 +67,8 @@
 				5ECE227D2A957116009377A7 /* main.m */,
 				5ECE22872A95818A009377A7 /* archive.c */,
 				5E727DF42A99B967000315C2 /* objective-c-archive.m */,
+				5E727DF62A9C5E64000315C2 /* Animal.h */,
+				5E727DF72A9C5E64000315C2 /* Animal.m */,
 			);
 			path = ObjectiveCTutorial;
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ECE22882A95818A009377A7 /* archive.c in Sources */,
+				5E727DF82A9C5E64000315C2 /* Animal.m in Sources */,
 				5E727DF52A99B967000315C2 /* objective-c-archive.m in Sources */,
 				5ECE227E2A957116009377A7 /* main.m in Sources */,
 			);
