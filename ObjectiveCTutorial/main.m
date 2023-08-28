@@ -26,6 +26,12 @@ int main(int argc, const char * argv[]) {
         [heroes insertObject:@"Black panther" atIndex:2];
         
         NSLog(@"%@", heroes);
+        
+        [heroes removeObject:@"Hulk"];
+        NSLog(@"%@", [heroes objectAtIndex:3]);
+        [heroes removeObjectAtIndex:3];
+        
+        NSLog(@"%@", heroes);
     }
     return 0;
 }
