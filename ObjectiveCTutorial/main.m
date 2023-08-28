@@ -34,8 +34,7 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%@", heroes);
         
         for (int i = 0; i < heroes.count; i++) {
-            NSString *heroe = [heroes objectAtIndex:i];
-            NSLog(@"Hero at index: %d is %@", i, heroe);
+            NSLog(@"Hero at index: %d is %@", i, heroes[i]);
         }
     }
     return 0;
