@@ -5,7 +5,15 @@
 - (instancetype) init {
     self = [super init];
     if (self) {
-        // 
+        self.name = @"No name";
+    }
+    return self;
+}
+
+- (instancetype) initWithName:(NSString *)defaultName {
+    self = [super init];
+    if (self) {
+        self.name = defaultName;
     }
     return self;
 }
