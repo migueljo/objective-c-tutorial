@@ -19,7 +19,7 @@
 }
 
 - (void) getInfo {
-    printf("Info \n");
+    printf("Random Info \n");
 }
 
 - (float) weightInKg:(float)weightInLbs {
