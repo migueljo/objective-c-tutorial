@@ -23,16 +23,11 @@
 }
 
 - (float) weightInKg:(float)weightInLbs {
-    return weightInLbs * 2;
+    return weightInLbs * 0.4535;
 }
 
 - (NSString *) talkToMe:(NSString *)name appendix:(NSString *)appendix {
-    NSMutableString *greetings = [NSMutableString stringWithString:@"Hello "];
-    [greetings appendString:name];
-    [greetings appendString:@" "];
-    [greetings appendString:appendix];
-    
-    return [greetings copy];
+    return [NSString stringWithFormat:@"Hello %@ %@", name, appendix];
 }
 
 - (int) getSum:(int)number1 nextNumber:(int)number2 {
