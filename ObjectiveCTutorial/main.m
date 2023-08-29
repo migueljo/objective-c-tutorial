@@ -15,6 +15,9 @@ int main(int argc, const char * argv[]) {
         // the "setName" function in this case is auto generated for us too
         [dog setName:@"Puche"];
         NSLog(@"The dog's name is now: %@", [dog name]);
+        
+        Animal *cat = [[Animal alloc] initWithName:@"Michi"];
+        NSLog(@"The cat's name is: %@", [cat name]);
         // **** Custom objects
     }
     return 0;
