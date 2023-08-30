@@ -1,6 +1,7 @@
 #include "stdio.h"
 #import <Foundation/Foundation.h>
 #include "Animal.h"
+#include "Koala.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -20,8 +21,11 @@ int main(int argc, const char * argv[]) {
         NSLog(@"The cat's name is: %@", [cat name]);
         
         NSLog(@"180 pounds is: %.2fKg", [dog weightInKg:180]);
-        NSLog(@"4+ 9 is: %d", [cat getSum:4 nextNumber:9]);
+        NSLog(@"4 + 9 is: %d", [cat getSum:4 nextNumber:9]);
         NSLog(@"%@", [dog talkToMe:@"Miguel" appendix:@""]);
+        
+        Koala *koala = [[Koala alloc] init];
+        NSLog(@"%@", [koala talkToMe:@"Miguel" appendix:@"Nice to meet you"]);
         // **** Custom objects
     }
     return 0;
