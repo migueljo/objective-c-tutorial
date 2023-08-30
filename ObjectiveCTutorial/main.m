@@ -18,6 +18,10 @@ int main(int argc, const char * argv[]) {
         
         Animal *cat = [[Animal alloc] initWithName:@"Michi"];
         NSLog(@"The cat's name is: %@", [cat name]);
+        
+        NSLog(@"180 pounds is: %.2fKg", [dog weightInKg:180]);
+        NSLog(@"4+ 9 is: %d", [cat getSum:4 nextNumber:9]);
+        NSLog(@"%@", [dog talkToMe:@"Miguel" appendix:@""]);
         // **** Custom objects
     }
     return 0;
