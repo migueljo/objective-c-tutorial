@@ -32,6 +32,9 @@ int main(int argc, const char * argv[]) {
         [koy getShots];
         
         [dog getInfo];
+        
+        [koy lookCute];
+        [koy performTrick];
         // **** Custom objects
     }
     return 0;
