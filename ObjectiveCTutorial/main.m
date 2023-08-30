@@ -24,8 +24,8 @@ int main(int argc, const char * argv[]) {
         NSLog(@"4 + 9 is: %d", [cat getSum:4 nextNumber:9]);
         NSLog(@"%@", [dog talkToMe:@"Miguel" appendix:@""]);
         
-        Koala *koala = [[Koala alloc] init];
-        NSLog(@"%@", [koala talkToMe:@"Miguel" appendix:@"Nice to meet you"]);
+        Koala *koy = [[Koala alloc] initWithName:@"Koy"];
+        NSLog(@"%@", [koy talkToMe:@"Miguel" appendix:@"Nice to meet you"]);
         // **** Custom objects
     }
     return 0;
