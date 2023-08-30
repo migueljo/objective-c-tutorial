@@ -2,6 +2,7 @@
 #import <Foundation/Foundation.h>
 #include "Animal.h"
 #include "Koala.h"
+#include "Animal+Exam.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -26,6 +27,9 @@ int main(int argc, const char * argv[]) {
         
         Koala *koy = [[Koala alloc] initWithName:@"Koy"];
         NSLog(@"%@", [koy talkToMe:@"Miguel" appendix:@"Nice to meet you"]);
+        
+        NSLog(@"Did %@ get shots? %d", koy.name, [koy checkedByVet]);
+        [koy getShots];
         // **** Custom objects
     }
     return 0;
