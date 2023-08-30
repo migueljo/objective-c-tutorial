@@ -1,4 +1,5 @@
 #import "Animal.h"
+#import "Animal+Vet.h"
 
 @implementation Animal
 
@@ -20,6 +21,7 @@
 
 - (void) getInfo {
     printf("Random Info \n");
+    [self getExamResults];
 }
 
 - (float) weightInKg:(float)weightInLbs {

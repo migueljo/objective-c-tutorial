@@ -30,6 +30,8 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"Did %@ get shots? %d", koy.name, [koy checkedByVet]);
         [koy getShots];
+        
+        [dog getInfo];
         // **** Custom objects
     }
     return 0;

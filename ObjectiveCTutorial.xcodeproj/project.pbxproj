@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5E0A8D3C2A9EEA80002025DB /* Koala.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0A8D3B2A9EEA80002025DB /* Koala.m */; };
 		5E0A8D3F2A9F00A3002025DB /* Animal+Exam.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0A8D3E2A9F00A3002025DB /* Animal+Exam.m */; };
+		5E0A8D422A9F0259002025DB /* Animal+Vet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0A8D412A9F0259002025DB /* Animal+Vet.m */; };
 		5E727DF52A99B967000315C2 /* objective-c-archive.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E727DF42A99B967000315C2 /* objective-c-archive.m */; };
 		5E727DF82A9C5E64000315C2 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E727DF72A9C5E64000315C2 /* Animal.m */; };
 		5ECE227E2A957116009377A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECE227D2A957116009377A7 /* main.m */; };
@@ -32,6 +33,8 @@
 		5E0A8D3B2A9EEA80002025DB /* Koala.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Koala.m; sourceTree = "<group>"; };
 		5E0A8D3D2A9F00A3002025DB /* Animal+Exam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animal+Exam.h"; sourceTree = "<group>"; };
 		5E0A8D3E2A9F00A3002025DB /* Animal+Exam.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Animal+Exam.m"; sourceTree = "<group>"; };
+		5E0A8D402A9F0259002025DB /* Animal+Vet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animal+Vet.h"; sourceTree = "<group>"; };
+		5E0A8D412A9F0259002025DB /* Animal+Vet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Animal+Vet.m"; sourceTree = "<group>"; };
 		5E727DF42A99B967000315C2 /* objective-c-archive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "objective-c-archive.m"; sourceTree = "<group>"; };
 		5E727DF62A9C5E64000315C2 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
 		5E727DF72A9C5E64000315C2 /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
@@ -79,6 +82,8 @@
 				5E0A8D3B2A9EEA80002025DB /* Koala.m */,
 				5E0A8D3D2A9F00A3002025DB /* Animal+Exam.h */,
 				5E0A8D3E2A9F00A3002025DB /* Animal+Exam.m */,
+				5E0A8D402A9F0259002025DB /* Animal+Vet.h */,
+				5E0A8D412A9F0259002025DB /* Animal+Vet.m */,
 			);
 			path = ObjectiveCTutorial;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 				5ECE22882A95818A009377A7 /* archive.c in Sources */,
 				5E727DF82A9C5E64000315C2 /* Animal.m in Sources */,
 				5E727DF52A99B967000315C2 /* objective-c-archive.m in Sources */,
+				5E0A8D422A9F0259002025DB /* Animal+Vet.m in Sources */,
 				5E0A8D3C2A9EEA80002025DB /* Koala.m in Sources */,
 				5E0A8D3F2A9F00A3002025DB /* Animal+Exam.m in Sources */,
 				5ECE227E2A957116009377A7 /* main.m in Sources */,
