@@ -3,6 +3,7 @@
 #include "Animal.h"
 #include "Koala.h"
 #include "Animal+Exam.h"
+#include "Dog.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -51,6 +52,11 @@ int main(int argc, const char * argv[]) {
         
         enum Ratings matrixRating = great;
         NSLog(@"Matrix rating %u", matrixRating);
+        
+        // Dynamic binding or polymorphism
+        Dog *puche = [[Dog alloc] initWithName:@"Puche"];
+        [puche makeSound];
+        [koy makeSound];
     }
     return 0;
 }
