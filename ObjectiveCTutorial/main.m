@@ -44,6 +44,13 @@ int main(int argc, const char * argv[]) {
         };
         
         NSLog(@"Area of 4, 6 is: %.2f", getArea(4, 6));
+        
+        enum Ratings {
+            poor = 1, ok = 2, great = 5
+        };
+        
+        enum Ratings matrixRating = great;
+        NSLog(@"Matrix rating %u", matrixRating);
     }
     return 0;
 }

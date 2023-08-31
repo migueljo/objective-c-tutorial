@@ -14,6 +14,7 @@
 		5E727DF82A9C5E64000315C2 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E727DF72A9C5E64000315C2 /* Animal.m */; };
 		5ECE227E2A957116009377A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECE227D2A957116009377A7 /* main.m */; };
 		5ECE22882A95818A009377A7 /* archive.c in Sources */ = {isa = PBXBuildFile; fileRef = 5ECE22872A95818A009377A7 /* archive.c */; };
+		5EE673B22AA052520066AC1B /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE673B12AA052520066AC1B /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +43,8 @@
 		5ECE227A2A957116009377A7 /* ObjectiveCTutorial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectiveCTutorial; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ECE227D2A957116009377A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5ECE22872A95818A009377A7 /* archive.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = archive.c; sourceTree = "<group>"; };
+		5EE673B02AA052520066AC1B /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		5EE673B12AA052520066AC1B /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				5E0A8D402A9F0259002025DB /* Animal+Vet.h */,
 				5E0A8D412A9F0259002025DB /* Animal+Vet.m */,
 				5E0A8D432A9F03C5002025DB /* BeautyContest.h */,
+				5EE673B02AA052520066AC1B /* Dog.h */,
+				5EE673B12AA052520066AC1B /* Dog.m */,
 			);
 			path = ObjectiveCTutorial;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 			files = (
 				5ECE22882A95818A009377A7 /* archive.c in Sources */,
 				5E727DF82A9C5E64000315C2 /* Animal.m in Sources */,
+				5EE673B22AA052520066AC1B /* Dog.m in Sources */,
 				5E727DF52A99B967000315C2 /* objective-c-archive.m in Sources */,
 				5E0A8D422A9F0259002025DB /* Animal+Vet.m in Sources */,
 				5E0A8D3C2A9EEA80002025DB /* Koala.m in Sources */,

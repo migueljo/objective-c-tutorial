@@ -36,4 +36,8 @@
     return number1 + number2;
 }
 
+- (void)makeSound {
+    NSLog(@"Grrrrrr");
+}
+
 @end
