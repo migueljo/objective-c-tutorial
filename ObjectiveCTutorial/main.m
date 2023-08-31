@@ -36,6 +36,14 @@ int main(int argc, const char * argv[]) {
         [koy lookCute];
         [koy performTrick];
         // **** Custom objects
+        
+        // Block anonymous function
+        float (^getArea) (float width, float height);
+        getArea = ^float(float width, float height) {
+            return width * height;
+        };
+        
+        NSLog(@"Area of 4, 6 is: %.2f", getArea(4, 6));
     }
     return 0;
 }
